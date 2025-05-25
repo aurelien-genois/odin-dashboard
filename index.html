@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Odin Dashboard</title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="./style.css"
+        />
+    </head>
+    <body class="page-container">
+        <!-- ***** SIDEBAR *****  -->
+
+        <aside class="sidebar">
+            <h2 class="sidebar__title">
+                <img
+                    src="./images/view-dashboard.svg"
+                    alt=""
+                />
+                Dashboard
+            </h2>
+
+            <ul class="sidebar__tabs sidebar__tabs--main">
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/home.svg"
+                            alt=""
+                        />
+                        Home
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/card-account-details-outline.svg"
+                            alt=""
+                        />
+                        Profile
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/message-reply.svg"
+                            alt=""
+                        />
+                        Messages
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/clock-time-three.svg"
+                            alt=""
+                        />
+                        History
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/file-multiple.svg"
+                            alt=""
+                        />
+                        Tasks
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/account-group.svg"
+                            alt=""
+                        />
+                        Communities
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="sidebar__tabs sidebar__tabs--secondary">
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/cog.svg"
+                            alt=""
+                        />
+                        Settings
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/help-box.svg"
+                            alt=""
+                        />
+                        Support
+                    </a>
+                </li>
+                <li class="sidebar__tabs__tab">
+                    <a
+                        class="sidebar__tabs__tab__link"
+                        href="#"
+                    >
+                        <img
+                            src="./images/shield-check.svg"
+                            alt=""
+                        />
+                        Privacy
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- ***** HEADER *****  -->
+        <header class="header">
+            <div class="header__top-bar">
+                <form
+                    class="header__top-bar__search-form"
+                    method="GET"
+                    action=""
+                >
+                    <img
+                        src="./images/magnify.svg"
+                        alt=""
+                    />
+                    <input
+                        type="search"
+                        name=""
+                        id=""
+                    />
+                </form>
+                <img
+                    class="header__top-bar__notif-bell"
+                    src="./images/bell-ring-outline.svg"
+                    alt=""
+                />
+                <a class="header__top-bar__profile-link">
+                    <img
+                        src="./images/cat.svg"
+                        alt=""
+                    />
+                    Morgan Oakley
+                </a>
+            </div>
+
+            <div class="header__main">
+                <div class="header__main__profile">
+                    <img
+                        class="header__main__profile__img"
+                        src="./images/cat.svg"
+                        alt=""
+                    />
+                    Hi there,
+                    <h1 class="header__main__profile__name">
+                        Morgan Oakley (@morgan)
+                    </h1>
+                </div>
+                <ul class="header__main__actions">
+                    <li>
+                        <a
+                            class="btn"
+                            href="#"
+                        >
+                            New
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="btn"
+                            href="#"
+                        >
+                            Upload
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            class="btn"
+                            href="#"
+                        >
+                            Share
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- ***** PROJECTS *****  -->
+        <main class="main">
+            <section class="main__projects">
+                <h2>Your Projects</h2>
+                <ul class="main__projects__list">
+                    <li class="project-card">
+                        <h3 class="project-card__title">Super Cool Project</h3>
+                        <p class="project-card__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Iste libero.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="project-card">
+                        <h3 class="project-card__title">Less Cool Project</h3>
+                        <p class="project-card__desc">
+                            Vitae eveniet ea voluptas ducimus, minima officia
+                            similique libero mollitia.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="project-card">
+                        <h3 class="project-card__title">Impossible App</h3>
+                        <p class="project-card__desc">
+                            Amet, consectetur adipisicing elit. Iste libero
+                            consequuntur illum architecto quod fuga.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="project-card">
+                        <h3 class="project-card__title">Easy Peasy App</h3>
+                        <p class="project-card__desc">
+                            Corrupti quas consectetur voluptates odit vitae
+                            eveniet ea voluptas ducimus.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="project-card">
+                        <h3 class="project-card__title">Ad Blocker</h3>
+                        <p class="project-card__desc">
+                            Eveniet ea voluptas ducimus, minima officia
+                            similique libero mollitia, Lorem ipsum.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                    <li class="project-card">
+                        <h3 class="project-card__title">Money Maker</h3>
+                        <p class="project-card__desc">
+                            Iste libero consequuntur illum architecto quod fuga.
+                            Corrupti quas consectetur voluptates odit vitae.
+                        </p>
+                        <ul class="project-card__actions">
+                            <a
+                                href=""
+                                title="add to favorite"
+                            >
+                                <img
+                                    src="./images/star-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="set at viewed"
+                            >
+                                <img
+                                    src="./images/eye-plus-outline.svg"
+                                    alt=""
+                                />
+                            </a>
+                            <a
+                                href=""
+                                title="share"
+                            >
+                                <img
+                                    src="./images/source-fork.svg"
+                                    alt=""
+                                />
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main__announcements">
+                <h2>Announcements</h2>
+                <ul class="main__announcements__list">
+                    <li class="announcement-item">
+                        <h3 class="announcement-item__title">
+                            Site Maintenance
+                        </h3>
+                        <p class="announcement-item__desc">
+                            Suscipit molestias, quo vitae nulla recusandae,
+                            deleniti doloribus provident repellat a.
+                        </p>
+                    </li>
+                    <li class="announcement-item">
+                        <h3 class="announcement-item__title">
+                            Community Share Day
+                        </h3>
+                        <p class="announcement-item__desc">
+                            Nostrum optio assumenda harum beatae repudiandae
+                            maiores aperiam ipsa error consectetur fugit.
+                        </p>
+                    </li>
+                    <li class="announcement-item">
+                        <h3 class="announcement-item__title">
+                            Updated Privacy Policy
+                        </h3>
+                        <p class="announcement-item__desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Velit, minima quidem! Officiis.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="main__trending">
+                <h2>Trending</h2>
+                <ul class="main__trending__list">
+                    <li class="trending-item">
+                        <img
+                            class="trending-item__img"
+                            src="./images/dog-side.svg"
+                            alt=""
+                        />
+                        <h3 class="trending-item__title">@legan</h3>
+                        <p class="trending-item__desc">World Peace Builder</p>
+                    </li>
+                    <li class="trending-item">
+                        <img
+                            class="trending-item__img"
+                            src="./images/cat.svg"
+                            alt=""
+                        />
+                        <h3 class="trending-item__title">@morgan</h3>
+                        <p class="trending-item__desc">Super Cool Project</p>
+                    </li>
+                    <li class="trending-item">
+                        <img
+                            class="trending-item__img"
+                            src="./images/headphones.svg"
+                            alt=""
+                        />
+                        <h3 class="trending-item__title">@kendall</h3>
+                        <p class="trending-item__desc">Life Changing App</p>
+                    </li>
+                    <li class="trending-item">
+                        <img
+                            class="trending-item__img"
+                            src="./images/account-hard-hat.svg"
+                            alt=""
+                        />
+                        <h3 class="trending-item__title">@alex</h3>
+                        <p class="trending-item__desc">No Traffic Maker</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
